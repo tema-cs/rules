@@ -1,0 +1,92 @@
+[
+  {
+    "port":"",
+    "RuleType":0,
+    "outboundTag":"block",
+    "domain":[
+      "ext:adlist.dat:hagezi-pro",
+      "geosite:category-ads-all",
+      "geosite:win-spy"
+    ],
+    "enabled":true,
+    "remarks":"❌ Block Ad/Telemetry"
+  },
+  {
+    "port":"",
+    "RuleType":0,
+    "outboundTag":"direct",
+    "network":"tcp,udp",
+    "process":[
+      "FortniteClient-Win64-Shipping.exe",
+      "FortniteLauncher.exe",
+      "FortniteClient-Win64-Shipping_EAC_EOS.exe",
+      "EasyAntiCheat_EOS_Setup.exe"
+    ],
+    "enabled":true,
+    "remarks":"✔️ \u0415\u0441\u043B\u0438 \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u043F\u0438\u043D\u0433 \u0432 \u0438\u0433\u0440\u0435"
+  },
+  {
+    "port":"",
+    "RuleType":0,
+    "outboundTag":"proxy",
+    "network":"tcp,udp",
+    "domain":[
+      "geosite:ru-blocked",
+      "store.epicgames.com"
+    ],
+    "ip":[
+      "geoip:ru-blocked",
+      "geoip:telegram"
+    ],
+    "process":[
+      "Discord.exe",
+      "Update.exe",
+      "AnyDesk.exe",
+      "Code.exe"
+    ],
+    "enabled":true,
+    "remarks":"❌ Blocked Services"
+  },
+  {
+    "RuleType":0,
+    "outboundTag":"proxy",
+    "network":"tcp,udp",
+    "domain":[
+      "emojipedia.org",
+      "getemoji.com",
+      "steamdb.info",
+      "csrep.gg",
+      "geoguessr.com",
+      "streamlabs.com",
+      "ooklaserver.net",
+      "wsteamcommunity.com"
+    ],
+    "enabled":true,
+    "remarks":"✔️ \u0415\u0441\u043B\u0438 \u0441\u0430\u0439\u0442 \u043D\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442"
+  },
+  {
+    "port":"50000-65535",
+    "RuleType":0,
+    "outboundTag":"proxy",
+    "network":"udp",
+    "enabled":true,
+    "remarks":"❌ DUDP"
+  },
+  {
+    "RuleType":0,
+    "outboundTag":"direct",
+    "ip":[
+      "geoip:private"
+    ],
+    "enabled":true,
+    "remarks":"❌ LA"
+  },
+  {
+    "RuleType":0,
+    "port":"0-65535",
+    "outboundTag":"direct",
+    "network":"tcp,udp",
+    "enabled":true,
+    "remarks":"❌ Direct"
+  }
+]
