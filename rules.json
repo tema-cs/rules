@@ -36,7 +36,16 @@
       "rockstargames.com",
       "onetrust.com",
       "recaptcha.net",
-      "store.epicgames.com"
+      "store.epicgames.com",
+      "lordfilm133.ru",
+      "lordfilm333.top",
+      "lordfilm.fi",
+      "steamdb.info",
+      "csrep.gg",
+      "geoguessr.com",
+      "streamlabs.com",
+      "ooklaserver.net",
+      "wsteamcommunity.com"
     ],
     "ip":[
       "geoip:ru-blocked",
@@ -56,7 +65,7 @@
     "outboundTag":"proxy",
     "network":"tcp,udp",
     "domain":[
-      "emojipedia.org",
+      "geometrydash.com",
       "getemoji.com",
       "steamdb.info",
       "csrep.gg",
