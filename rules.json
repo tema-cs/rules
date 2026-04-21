@@ -37,25 +37,34 @@
       "onetrust.com",
       "recaptcha.net",
       "store.epicgames.com",
-      "lordfilm133.ru",
-      "lordfilm333.top",
-      "lordfilm.fi",
       "steamdb.info",
       "csrep.gg",
       "geoguessr.com",
       "streamlabs.com",
       "ooklaserver.net",
-      "wsteamcommunity.com"
+      "wsteamcommunity.com",
+      "tracker.gg",
+      "trackercdn.com",
+      "overwolf.com",
+      "aiming.pro",
+      "incy.cc",
+      "emojipedia.org",
+      "getemoji.com",
+      "modslocker.com",
+      "assettoworld.com",
+      "assettohub.com"
     ],
     "ip":[
       "geoip:ru-blocked",
-      "geoip:telegram"
+      "geoip:telegram",
+      "104.29.128.0/19"
     ],
     "process":[
       "Discord.exe",
       "Update.exe",
       "AnyDesk.exe",
-      "Code.exe"
+      "Code.exe",
+      "Termius.exe"
     ],
     "enabled":true,
     "remarks":"❌ Blocked Services"
@@ -65,8 +74,7 @@
     "outboundTag":"proxy",
     "network":"tcp,udp",
     "domain":[
-      "geometrydash.com",
-      "getemoji.com"
+      "geometrydash.com"
     ],
     "enabled":true,
     "remarks":"✔️ \u0415\u0441\u043B\u0438 \u0441\u0430\u0439\u0442 \u043D\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442"
