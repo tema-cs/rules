@@ -21,7 +21,8 @@
       "FortniteLauncher.exe",
       "FortniteClient-Win64-Shipping_EAC_EOS.exe",
       "EasyAntiCheat_EOS_Setup.exe",
-      "ReadyOrNotSteam-Win64-Shipping.exe"
+      "ReadyOrNotSteam-Win64-Shipping.exe",
+      "GenshinImpact.exe"
     ],
     "enabled":true,
     "remarks":"✔️ \u0415\u0441\u043B\u0438 \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u043F\u0438\u043D\u0433 \u0432 \u0438\u0433\u0440\u0435"
@@ -57,7 +58,8 @@
       "huion.com",
       "sounddino.com",
       "akasha.cv",
-      "kimi.com"
+      "kimi.com",
+      "tiermaker.com"
     ],
     "ip":[
       "geoip:ru-blocked",
