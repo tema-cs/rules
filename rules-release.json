@@ -53,9 +53,9 @@
     "network":"tcp,udp",
     "domain":[
       "ext:geosite_RU.dat:ru-available-only-inside",
-      "regexp:.*\.ru$",
-      "regexp:.*\.su$",
-      "regexp:.*\.xn--p1ai$",
+      "regexp:.*\\.ru$",
+      "regexp:.*\\.su$",
+      "regexp:.*\\.xn--p1ai$",
       "2gis.com",
       "2gis.info",
       "2gis.media",
