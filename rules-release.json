@@ -33,7 +33,7 @@
       "geosite:win-spy"
     ],
     "enabled":true,
-    "remarks":"❌ Block Ad/Telemetry"
+    "remarks":"❌ AT"
   },
   {
     "port":"",
@@ -44,7 +44,7 @@
       "browser.exe"
     ],
     "enabled":true,
-    "remarks":"❌ EXE DIRECT"
+    "remarks":"❌ EXEIN"
   },
   {
     "port":"",
@@ -88,7 +88,7 @@
       "xvalleyinno.top"
     ],
     "enabled":true,
-    "remarks":"❌ RUDMN"
+    "remarks":"❌ RUIN"
   },
   {
     "port":"",
@@ -169,7 +169,7 @@
   {
     "port":"",
     "RuleType":0,
-    "outboundTag":"direct",
+    "outboundTag":"proxy",
     "network":"tcp,udp",
     "process":[
       "Discord.exe",
@@ -181,7 +181,7 @@
       "opera.exe"
     ],
     "enabled":true,
-    "remarks":"❌ EXE"
+    "remarks":"❌ EXEOUT"
   },
   {
     "RuleType":0,
