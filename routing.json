@@ -1,25 +1,24 @@
 {
-  "Name": "tema_cs routing v1",
+  "Name": "tema_cs Routing v1",
   "GlobalProxy": "true",
   "UseChunkFiles": "true",
   "RemoteDns": "8.8.8.8",
-  "DomesticDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
   "RemoteDNSType": "DoH",
   "RemoteDNSDomain": "https://8.8.8.8/dns-query",
   "RemoteDNSIP": "8.8.8.8",
   "DomesticDNSType": "DoH",
-  "DomesticDNSDomain": "https://8.8.8.8/dns-query",
-  "DomesticDNSIP": "8.8.8.8",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/geoip.dat",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/geosite.dat",
-  "LastUpdated": "1781600552",
+  "LastUpdated": "1782975015",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"
   },
   "RouteOrder": "block-proxy-direct",
   "DirectSites": [
-    "ext:geosite_RU.dat:ru-available-only-inside",
     "geosite:private",
     "geosite:category-ru",
     "geosite:whitelist",
@@ -34,52 +33,19 @@
     "geosite:faceit",
     "regexp:.*\\.ru$",
     "regexp:.*\\.su$",
-    "regexp:.*\\.xn--p1ai$",
-    "2gis.com",
-    "2gis.info",
-    "2gis.media",
-    "2gis-cdn.com",
-    "vk.com",
-    "vk-cdn.net",
-    "vk.me",
-    "vkuseraudio.net",
-    "csgo.com",
-    "github.com",
-    "githubusercontent.com",
-    "githubassets.com",
-    "beget.com",
-    "dropmefiles.com",
-    "paywb.com",
-    "yandex.net",
-    "moex.com",
-    "samtelecom.com",
-    "lenta.com",
-    "max.team",
-    "zvuk.com",
-    "okko.tv",
-    "premier.one",
-    "sdk.tech",
-    "steampowered.com",
-    "steamcommunity.com",
-    "faceit.com",
-    "faceit-cdn.net",
-    "www.google.com"
+    "regexp:.*\\.xn--p1ai$"
   ],
   "DirectIp": [
     "geoip:private",
-    "geoip:direct",
-    "ext:geoip_RU.dat:ru"
+    "geoip:direct"
   ],
   "ProxySites": [
     "geosite:google-play",
     "geosite:github",
+    "geosite:twitch-ads",
     "geosite:youtube",
     "geosite:telegram",
-
-    "acstuff.club",
-    "acstuff.ru",
-    "clck.ru",
-    "click.discord.com"
+    "gameplus.cfd"
   ],
   "ProxyIp": [
     "213.21.245.1",
@@ -129,8 +95,7 @@
   "BlockSites": [
     "geosite:win-spy",
     "geosite:torrent",
-    "geosite:category-ads-all",
-    "ext:adlist.dat:hagezi-pro"
+    "geosite:category-ads"
   ],
   "BlockIp": [],
   "DomainStrategy": "IPIfNonMatch",
