@@ -5,7 +5,7 @@
     "outboundTag":"proxy",
     "network":"tcp,udp",
     "ip":[
-      "62.238.12.116"
+      "213.21.245.1"
     ],
     "enabled":true,
     "remarks":"❌ VDS"
